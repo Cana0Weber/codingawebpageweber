@@ -1,0 +1,83 @@
+@charset "UTF-8";
+body{
+	font-family: "Quicksand", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 300;
+	font-style: normal;
+	background-color: palegoldenrod;
+}
+header {
+	background-color:darkseagreen;
+	padding-top:20px;
+	padding-bottom:100px;
+}
+
+h1, h2, h3, h4, h5 {
+  	font-optical-sizing: auto;
+ 	font-weight:700;
+  	font-style: normal;
+	padding-left: 20%;
+	padding-right:20%;
+}
+p {
+	font-weight:100;
+	padding-right: 20%;
+	padding-left: 20%;
+	font-size: 19px;
+}
+
+h3 {
+	padding-left: 21%
+}
+.wrapper {
+	padding-left: 20%;
+	padding-right: 20%;
+}
+.rightAlign{
+	float: right;
+	padding-left: 100px;
+}
+.leftAlign{
+	float: left;
+	padding-right: 100px;
+}
+p{
+	padding-left: 20%;
+}
+img{
+	float:right;
+}
+a {
+	color:#A69B05;
+	background-color: palegoldenrod
+}
+a:hover {
+	color:saddlebrown;
+	background-color: goldenrod
+}
+
+.button a {
+	background-color:goldenrod;
+	color: saddlebrown;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+.button a:hover {
+	background-color: darkgoldenrod;
+	color: saddlebrown
+}
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.Pspace
+footer {
+	padding-top: 20px; 
+	padding-bottom: 20px;
+	background-color: lawngreen;
+}
